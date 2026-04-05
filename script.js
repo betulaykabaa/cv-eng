@@ -317,11 +317,11 @@ function initTypewriter() {
     if (!typedText) return;
     
     const roles = [
+        'AI Project Specialist',
         'Biomedical Engineer',
-        'Quality Management Expert',
-        'MDR Regulation Expert',
-        'ISO 9001 Internal Auditor',
-        'Product and Quality Manager'
+        'Multi-Agent Systems Developer',
+        'Automation Engineer',
+        'Generative AI Developer'
     ];
     
     let roleIndex = 0;
@@ -898,12 +898,12 @@ window.addEventListener('error', (e) => {
 // === PAGE VISIBILITY API ===
 document.addEventListener('visibilitychange', () => {
     if (document.hidden) {
-        document.title = 'Come back! - Betülay Kaba';
+        document.title = 'Come back! - Betulay Kaba';
     } else {
-        document.title = 'Betülay Kaba | Biomedical Engineer & Quality Management Expert';
+        document.title = 'Betulay Kaba | AI Project Specialist & Biomedical Engineer';
     }
 });
 
-console.log('🚀 Betülay Kaba Portfolio - v2.0 Professional');
+console.log('🚀 Betulay Kaba Portfolio - v2.0 Professional');
 console.log('💻 Developed with passion and precision');
 console.log('📧 Contact: betulaykaba.work@gmail.com');
